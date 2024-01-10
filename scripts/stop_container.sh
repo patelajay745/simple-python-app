@@ -1,2 +1,2 @@
-docker stop sample
-docker rm sample
+docker stop sample || true
+docker rm sample || true
